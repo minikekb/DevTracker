@@ -1,0 +1,7 @@
+<h1><%= @user.name %></h1>
+<h2>Projects:</h2>
+<ul>
+  <% @projects.each do |project| %>
+    <li><%= project.title %></li>
+  <% end %>
+</ul>
